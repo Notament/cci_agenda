@@ -12,4 +12,4 @@ function cci_agenda_theme($existing, $type, $theme, $path) {
       ],
     ],
   ];
-}
+} 
