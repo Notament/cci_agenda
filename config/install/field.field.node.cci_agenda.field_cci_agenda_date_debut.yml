@@ -1,0 +1,23 @@
+uuid: 6f868eb5-15ed-40cb-98fd-e911ffc61a1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cci_agenda_date_debut
+    - node.type.cci_agenda
+  module:
+    - datetime
+_core:
+  default_config_hash: GWOAk2_LVHfWix-W51gNXbpamC228a4kz8AoJJ_rlRo
+id: node.cci_agenda.field_cci_agenda_date_debut
+field_name: field_cci_agenda_date_debut
+entity_type: node
+bundle: cci_agenda
+label: 'Date début'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

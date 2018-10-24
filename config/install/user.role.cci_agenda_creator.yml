@@ -1,0 +1,31 @@
+uuid: d8e6949f-be98-42de-a6f1-0a164a02d443
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _uTiuZSB3VN5oPnj6MUSjb3pTAmrxXpTt-shO9YLBAs
+id: cci_agenda_creator
+label: 'Cci_Agenda creator'
+weight: 11
+is_admin: false
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node cci_agenda content'
+  - 'administer panelizer node cci_agenda layout'
+  - 'change layouts in place editing'
+  - 'create cci_agenda content'
+  - 'create url aliases'
+  - 'edit own cci_agenda content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view cci_agenda revisions'
+  - 'view latest version'
+  - 'view own unpublished content'

@@ -1,0 +1,16 @@
+uuid: d3c079c1-64e3-430a-b478-360abcc8ba9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cci_agenda_reviewer
+  module:
+    - user
+_core:
+  default_config_hash: FA598yBr0qYx87b2BFohg9N3TbXlAWn9kQlerRiCPOU
+id: user_add_role_action.cci_agenda_reviewer
+label: 'Add the Cci_Agenda reviewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: cci_agenda_reviewer

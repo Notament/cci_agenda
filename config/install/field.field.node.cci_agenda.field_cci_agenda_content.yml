@@ -1,0 +1,24 @@
+uuid: 8387de41-9c04-410d-aeb2-3d737b93c359
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cci_agenda_content
+    - node.type.cci_agenda
+  module:
+    - text
+_core:
+  default_config_hash: XFnoQ0DMPjvhjnZ1sAROf-xUePI3hew9BNcHKWAANbo
+id: node.cci_agenda.field_cci_agenda_content
+field_name: field_cci_agenda_content
+entity_type: node
+bundle: cci_agenda
+label: Content
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

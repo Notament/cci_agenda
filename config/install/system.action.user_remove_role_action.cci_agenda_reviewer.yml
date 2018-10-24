@@ -1,0 +1,16 @@
+uuid: fed5bb19-29c3-49b4-a33a-2e35cd2a5fa6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cci_agenda_reviewer
+  module:
+    - user
+_core:
+  default_config_hash: amWN8xwdb3viXvx99Je3gFX3tRXymI9XhfeVrdTQE44
+id: user_remove_role_action.cci_agenda_reviewer
+label: 'Remove the Cci_Agenda reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: cci_agenda_reviewer

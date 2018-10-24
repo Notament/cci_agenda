@@ -1,0 +1,40 @@
+uuid: b9d36bf1-b1bf-4077-b382-2ad459535521
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cci_agenda.field_cci_agenda_contact_email
+    - field.field.node.cci_agenda.field_cci_agenda_contact_name
+    - field.field.node.cci_agenda.field_cci_agenda_contact_tel
+    - field.field.node.cci_agenda.field_cci_agenda_content
+    - field.field.node.cci_agenda.field_cci_agenda_date_debut
+    - field.field.node.cci_agenda.field_cci_agenda_date_fin
+    - field.field.node.cci_agenda.field_cci_agenda_header
+    - field.field.node.cci_agenda.field_cci_agenda_lieu
+    - field.field.node.cci_agenda.field_cci_agenda_map
+    - node.type.cci_agenda
+  module:
+    - user
+_core:
+  default_config_hash: Gsvb3jcBqIV9XgJw5vU9ldpud3G3vlj3v-V7umb1Eig
+id: node.cci_agenda.teaser
+targetEntityType: node
+bundle: cci_agenda
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_cci_agenda_contact_email: true
+  field_cci_agenda_contact_name: true
+  field_cci_agenda_contact_tel: true
+  field_cci_agenda_content: true
+  field_cci_agenda_date_debut: true
+  field_cci_agenda_date_fin: true
+  field_cci_agenda_header: true
+  field_cci_agenda_lieu: true
+  field_cci_agenda_map: true

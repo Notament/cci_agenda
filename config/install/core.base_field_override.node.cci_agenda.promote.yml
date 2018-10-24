@@ -1,0 +1,24 @@
+uuid: e8d2a105-7f0b-42a3-98c9-7eb0ecd09918
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cci_agenda
+_core:
+  default_config_hash: gJo2GHLP8ZyNDjl87_56kIyJtuiw_M1C2IobeWmpgt0
+id: node.cci_agenda.promote
+field_name: promote
+entity_type: node
+bundle: cci_agenda
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

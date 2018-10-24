@@ -1,0 +1,21 @@
+uuid: 6538720a-eca9-450d-9b3d-d9d17df269e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cci_agenda_map
+    - node.type.cci_agenda
+_core:
+  default_config_hash: cYnRWBTohZ8W8q08y7Dh5p-QqQ2dfzrFKmqvbLbV71k
+id: node.cci_agenda.field_cci_agenda_map
+field_name: field_cci_agenda_map
+entity_type: node
+bundle: cci_agenda
+label: Map
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

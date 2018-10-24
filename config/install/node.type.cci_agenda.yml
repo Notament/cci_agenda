@@ -1,0 +1,20 @@
+uuid: cadc1e96-524f-4661-a770-dc6b7bcc46da
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: if9cFcOQnMqCtjQJ1pvjcoNvkPyU6-JD9mDC4DWAjys
+name: Évènement
+type: cci_agenda
+description: 'Évènements & Agenda'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

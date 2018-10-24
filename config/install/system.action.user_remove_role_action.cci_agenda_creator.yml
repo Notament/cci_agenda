@@ -1,0 +1,16 @@
+uuid: 3dd7af89-e401-48dc-8479-30625bdce460
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cci_agenda_creator
+  module:
+    - user
+_core:
+  default_config_hash: gjSqY1yc3ac5BXD9A9Wa96snCRqnA2ktD456kDwcd8Q
+id: user_remove_role_action.cci_agenda_creator
+label: 'Remove the Cci_Agenda creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: cci_agenda_creator

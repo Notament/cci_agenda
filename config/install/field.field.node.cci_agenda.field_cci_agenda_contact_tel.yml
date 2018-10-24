@@ -1,0 +1,21 @@
+uuid: 7d72b179-8bc7-47d5-aa11-a9da6e2846ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cci_agenda_contact_tel
+    - node.type.cci_agenda
+_core:
+  default_config_hash: ok-Pp0SbfrqbWpFuaY4EakTXInJNd3EVB14y6OKk2BM
+id: node.cci_agenda.field_cci_agenda_contact_tel
+field_name: field_cci_agenda_contact_tel
+entity_type: node
+bundle: cci_agenda
+label: 'Contact telephone'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

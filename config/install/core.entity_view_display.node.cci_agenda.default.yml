@@ -1,0 +1,123 @@
+uuid: 631cec1b-74f9-42a6-9108-d5a6595ffde1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cci_agenda.field_cci_agenda_contact_email
+    - field.field.node.cci_agenda.field_cci_agenda_contact_name
+    - field.field.node.cci_agenda.field_cci_agenda_contact_tel
+    - field.field.node.cci_agenda.field_cci_agenda_content
+    - field.field.node.cci_agenda.field_cci_agenda_date_debut
+    - field.field.node.cci_agenda.field_cci_agenda_date_fin
+    - field.field.node.cci_agenda.field_cci_agenda_header
+    - field.field.node.cci_agenda.field_cci_agenda_lieu
+    - field.field.node.cci_agenda.field_cci_agenda_map
+    - node.type.cci_agenda
+  module:
+    - datetime
+    - panelizer
+    - simple_gmap
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+_core:
+  default_config_hash: 4dTzAw-42MFlngNOP2Aoj3fXbxVeM2wLhSKmbxY60nA
+id: node.cci_agenda.default
+targetEntityType: node
+bundle: cci_agenda
+mode: default
+content:
+  field_cci_agenda_contact_email:
+    weight: 107
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_cci_agenda_contact_name:
+    weight: 105
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_cci_agenda_contact_tel:
+    weight: 106
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_cci_agenda_content:
+    weight: 103
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_cci_agenda_date_debut:
+    weight: 109
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_cci_agenda_date_fin:
+    weight: 110
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_cci_agenda_header:
+    weight: 102
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_cci_agenda_lieu:
+    weight: 108
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_cci_agenda_map:
+    weight: 104
+    label: hidden
+    settings:
+      include_map: true
+      include_static_map: false
+      include_link: false
+      include_text: false
+      iframe_height: '200'
+      iframe_width: '200'
+      static_scale: 1
+      zoom_level: 14
+      link_text: 'View larger map'
+      map_type: m
+      langcode: en
+      apikey: ''
+    third_party_settings: {  }
+    type: simple_gmap
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

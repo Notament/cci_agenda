@@ -1,0 +1,153 @@
+uuid: 834616f7-9b6c-4881-be44-7686f267fdc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cci_agenda.field_cci_agenda_contact_email
+    - field.field.node.cci_agenda.field_cci_agenda_contact_name
+    - field.field.node.cci_agenda.field_cci_agenda_contact_tel
+    - field.field.node.cci_agenda.field_cci_agenda_content
+    - field.field.node.cci_agenda.field_cci_agenda_date_debut
+    - field.field.node.cci_agenda.field_cci_agenda_date_fin
+    - field.field.node.cci_agenda.field_cci_agenda_header
+    - field.field.node.cci_agenda.field_cci_agenda_lieu
+    - field.field.node.cci_agenda.field_cci_agenda_map
+    - node.type.cci_agenda
+  module:
+    - content_moderation
+    - datetime
+    - path
+    - text
+_core:
+  default_config_hash: EEzeVsuKx5ni9pIitFgaVEwpnSgRhrkhDVvvZ2ndn5Q
+id: node.cci_agenda.default
+targetEntityType: node
+bundle: cci_agenda
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_cci_agenda_contact_email:
+    weight: 127
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_cci_agenda_contact_name:
+    weight: 125
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_cci_agenda_contact_tel:
+    weight: 126
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_cci_agenda_content:
+    weight: 123
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea_with_summary
+    region: content
+  field_cci_agenda_date_debut:
+    weight: 129
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_cci_agenda_date_fin:
+    weight: 130
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_cci_agenda_header:
+    weight: 122
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_cci_agenda_lieu:
+    weight: 128
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_cci_agenda_map:
+    weight: 124
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

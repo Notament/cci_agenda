@@ -1,0 +1,23 @@
+uuid: a50c9413-6fc8-4f47-8506-9a70967c8ec2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: UjByh-k64Rw6QK7bQ1PiZx-WNv6FT2FeVGe2OEpBrbM
+id: node.field_cci_agenda_map
+field_name: field_cci_agenda_map
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

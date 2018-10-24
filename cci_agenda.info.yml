@@ -1,0 +1,8 @@
+name: 'Évènements & Agenda CCI'
+type: module
+description: 'Retrieve last post by date'
+core: 8.x
+package: 'CCI'
+
+dependencies:
+  - simple_gmap

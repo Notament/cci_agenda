@@ -1,0 +1,21 @@
+uuid: 59842daf-225e-4d9b-af76-d805cff52028
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cci_agenda_contact_name
+    - node.type.cci_agenda
+_core:
+  default_config_hash: nHx-ueFlZ9T_Jy2eFdn-W6DkFI0bSGl8mR6a1BdxLp4
+id: node.cci_agenda.field_cci_agenda_contact_name
+field_name: field_cci_agenda_contact_name
+entity_type: node
+bundle: cci_agenda
+label: 'Contact name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

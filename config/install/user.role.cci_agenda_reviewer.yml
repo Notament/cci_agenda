@@ -1,0 +1,21 @@
+uuid: 65e9be18-b38a-489b-9758-d100211d3b37
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: tIhAQc37ene7hs3xE5FwU98pKp9ULOHYLZ3N1Vh6h_g
+id: cci_agenda_reviewer
+label: 'Cci_Agenda reviewer'
+weight: 12
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any cci_agenda content'
+  - 'edit any cci_agenda content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

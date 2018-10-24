@@ -1,0 +1,32 @@
+{% extends "block.html.twig" %}
+{#
+/**
+ * @file
+ * Custom block
+#}
+
+{% block content %}
+<div class="events_container">
+<h1 class="agenda_title"> Agenda </h1>
+    <div class="scrollable_container_agenda">
+        {% for event in events %}
+        <div class="event_container">
+        <hr width="100%" style="border-top: dotted 1px;">
+            <div class="agenda_date">
+
+                {% if event.field_cci_agenda_date_debut.value != event.field_cci_agenda_date_fin.value and event.field_cci_agenda_date_fin.value != null %} 
+                    Du {{ event.field_cci_agenda_date_debut.value|date("m/d/Y") }} au {{ event.field_cci_agenda_date_fin.value|date("m/d/Y") }} - {{ event.field_cci_agenda_lieu.value }}
+                {% else %}
+                    Le {{ event.field_cci_agenda_date_debut.value|date("m/d/Y")|date("m/d/Y", "Europe/Paris") }} - {{ event.field_cci_agenda_lieu.value }}
+                {% endif %}
+            </div>
+            <a class="hyperlink_agenda" href="/node/{{event.nid.value}}">
+                {{ event.label }}
+            </a><br>
+            <a class="hyperlink_agenda" href="/node/{{event.nid.value}}">&#62; Lire la suite</a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+

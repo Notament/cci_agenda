@@ -1,0 +1,21 @@
+uuid: e240c054-4eab-464a-a8b7-8fe409a48cb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cci_agenda_lieu
+    - node.type.cci_agenda
+_core:
+  default_config_hash: asmAlMFwlUDpMri-vYR28HhnK-iQtZR6RM67Eo3wEq8
+id: node.cci_agenda.field_cci_agenda_lieu
+field_name: field_cci_agenda_lieu
+entity_type: node
+bundle: cci_agenda
+label: lieu
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

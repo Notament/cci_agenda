@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+
+function cci_agenda_theme($existing, $type, $theme, $path) {
+  return [
+    'cci_agenda' => [
+      'variables' => [
+        'events' => NULL
+      ],
+    ],
+  ];
+}

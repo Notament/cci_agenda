@@ -1,0 +1,3 @@
+services:
+  cci_agenda.agenda_service:
+    class: Drupal\cci_agenda\Service\AgendaService

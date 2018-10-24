@@ -1,0 +1,22 @@
+uuid: 1bfb7cdf-c0f7-4b6e-9225-3f17254e05dd
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - node
+_core:
+  default_config_hash: 0wPjduSnjNcKhe12MzO8pu11Auxlg9yTUw13dD-GMjQ
+id: node.field_cci_agenda_date_fin
+field_name: field_cci_agenda_date_fin
+entity_type: node
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,16 @@
+uuid: ccb073bf-90e3-49c8-bf8e-3ce1dea1e780
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.cci_agenda_creator
+  module:
+    - user
+_core:
+  default_config_hash: h3azKvgja7A88q5zziov8Ce_x-NXjOAS2Xv-Sm75WSQ
+id: user_add_role_action.cci_agenda_creator
+label: 'Add the Cci_Agenda creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: cci_agenda_creator
