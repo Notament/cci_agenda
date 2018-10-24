@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Implements hook_theme().
+ * Implements hook_theme();
  */
 
 function cci_agenda_theme($existing, $type, $theme, $path) {
@@ -11,5 +11,5 @@ function cci_agenda_theme($existing, $type, $theme, $path) {
         'events' => NULL
       ],
     ],
-  ];
+  ]; 
 } 
